@@ -11,6 +11,48 @@
     <a href="../index.html">Home</a>
     <a href="summary.html">National Parks Summary</a>
     <hr>
-    
+    <br>
+
+    <details>
+    <summary>Expand for instructions</summary>
+
+    <p>Click the box next to the interest(s) and then press the enter button. A list of National Parks that allow you to pursue those interests will be generated below. Note that only parks that allow all the selected interests will be shown in the list. Click the reset button to unselect all the boxes and start over.</p>
+    </details>
+
+    <br>
+
+    <form id="interest-form">
+    <fieldset>
+        <legend>Select your interest(s):</legend>
+<div> <input type="checkbox" id="interest1" name="interest" value="birding"> <label for="interest1"> Birds & Birding </label> </div>
+<div> <input type="checkbox" id="interest2" name="interest" value="compass"> <label for="interest2"> Compass & GPS Activities</label> </div>
+<div> <input type="checkbox" id="interest3" name="interest" value="biking"> <label for="interest3"> Biking</label> </div>
+<div> <input type="checkbox" id="interest4" name="interest" value="boating"> <label for="interest4"> Boating & Watersports</label> </div>
+<div> <input type="checkbox" id="interest5" name="interest" value="camping"> <label for="interest5"> Camping</label> </div>
+<div> <input type="checkbox" id="interest6" name="interest" value="climbing"> <label for="interest6"> Climbing</label> </div>
+<div> <input type="checkbox" id="interest7" name="interest" value="diving"> <label for="interest7"> Diving & Snorkeling</label> </div>
+<div> <input type="checkbox" id="interest8" name="interest" value="fishing"> <label for="interest8"> Fish & Fishing</label> </div>
+<div> <input type="checkbox" id="interest9" name="interest" value="horseback"> <label for="interest9"> Horseback Riding & Stock Use</label> </div>
+<div> <input type="checkbox" id="interest10" name="interest" value="hunting"> <label for="interest10"> Hunting</label> </div>
+<div> <input type="checkbox" id="interest11" name="interest" value="photography"> <label for="interest11"> Photography</label> </div>
+<div> <input type="checkbox" id="interest12" name="interest" value="trails"> <label for="interest12"> Trails & Hiking</label> </div>
+<div> <input type="checkbox" id="interest13" name="interest" value="watching"> <label for="interest13"> Watching Wildlife</label> </div>
+<div> <input type="checkbox" id="interest14" name="interest" value="wilderness"> <label for="interest14"> Wilderness</label> </div>
+<div> <input type="checkbox" id="interest15" name="interest" value="wintersports"> <label for="interest15"> Winter Sports</label> </div>
+    </fieldset>
+    <br>
+    <button id="enterButton" type="button">Enter</button>
+    <button id="resetButton" type="button">Reset</button>
+</form>
+
+<hr>
+
+<h2>Results</h2>
+<div id="results">Pick interests and press Enter.</div>
+
+<!-- <h3>Selected Interests:</h3>
+<div id="selection"></div> -->
+
+<script type="module" src="/js/main.js"></script>
 </body>
 </html>
